@@ -11,6 +11,8 @@
 		22763C782BC99C9700B9FAB0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22763C772BC99C9700B9FAB0 /* ContentView.swift */; };
 		22763C7A2BC99C9900B9FAB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22763C792BC99C9900B9FAB0 /* Assets.xcassets */; };
 		22763C7D2BC99C9900B9FAB0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22763C7C2BC99C9900B9FAB0 /* Preview Assets.xcassets */; };
+		22763C842BCADEEC00B9FAB0 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22763C832BCADEEC00B9FAB0 /* APIManager.swift */; };
+		22763C862BCAE27E00B9FAB0 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22763C852BCAE27E00B9FAB0 /* Product.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		22763C772BC99C9700B9FAB0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		22763C792BC99C9900B9FAB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22763C7C2BC99C9900B9FAB0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		22763C832BCADEEC00B9FAB0 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		22763C852BCAE27E00B9FAB0 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				22763C772BC99C9700B9FAB0 /* ContentView.swift */,
 				22763C792BC99C9900B9FAB0 /* Assets.xcassets */,
 				22763C7B2BC99C9900B9FAB0 /* Preview Content */,
+				22763C832BCADEEC00B9FAB0 /* APIManager.swift */,
+				22763C852BCAE27E00B9FAB0 /* Product.swift */,
 			);
 			path = Async_Await_CallAPI;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22763C842BCADEEC00B9FAB0 /* APIManager.swift in Sources */,
+				22763C862BCAE27E00B9FAB0 /* Product.swift in Sources */,
 				22763C782BC99C9700B9FAB0 /* ContentView.swift in Sources */,
 				22763C762BC99C9700B9FAB0 /* Async_Await_CallAPIApp.swift in Sources */,
 			);
