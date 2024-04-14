@@ -7,14 +7,14 @@
 
 import Foundation
 
-class ProductViewModel {
+class ProductViewModel : ObservableObject {
     var product: [Product] = []
     private let manager = APIManager()
     
     func fetchProducts() async {
         do {
-            let responseProduct: [Product] = try await manager.request(url: "https://fakestoreapi.com/products")
-            print(responseProduct)
+            product = try await manager.request(url: "https://fakestoreapi.com/products")
+            print(product)
         } catch {
             print("Fetch error", error)
         }
