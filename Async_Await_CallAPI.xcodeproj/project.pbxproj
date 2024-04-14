@@ -13,6 +13,7 @@
 		22763C7D2BC99C9900B9FAB0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22763C7C2BC99C9900B9FAB0 /* Preview Assets.xcassets */; };
 		22763C842BCADEEC00B9FAB0 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22763C832BCADEEC00B9FAB0 /* APIManager.swift */; };
 		22763C862BCAE27E00B9FAB0 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22763C852BCAE27E00B9FAB0 /* Product.swift */; };
+		227FA7D52BCB770B00EE0492 /* ProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227FA7D42BCB770B00EE0492 /* ProductViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		22763C7C2BC99C9900B9FAB0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		22763C832BCADEEC00B9FAB0 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		22763C852BCAE27E00B9FAB0 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		227FA7D42BCB770B00EE0492 /* ProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				22763C7B2BC99C9900B9FAB0 /* Preview Content */,
 				22763C832BCADEEC00B9FAB0 /* APIManager.swift */,
 				22763C852BCAE27E00B9FAB0 /* Product.swift */,
+				227FA7D42BCB770B00EE0492 /* ProductViewModel.swift */,
 			);
 			path = Async_Await_CallAPI;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 				22763C862BCAE27E00B9FAB0 /* Product.swift in Sources */,
 				22763C782BC99C9700B9FAB0 /* ContentView.swift in Sources */,
 				22763C762BC99C9700B9FAB0 /* Async_Await_CallAPIApp.swift in Sources */,
+				227FA7D52BCB770B00EE0492 /* ProductViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
